@@ -16,10 +16,6 @@ The Excel workbook documents a merged dataset built from two source files:
 - Exact duplicate rows removed: 7
 - Rows in `Cleaned_Data`: 99,993
 
-The workbook's data-quality review also flags:
-- 57 missing values in `YearsWithCurrManager`
-- 3 repeated `EmpID` values across 6 rows; the records differ in `YearsWithCurrManager` and are flagged for review rather than automatically deleted.
-
 ## Key Dashboard Metrics
 The Excel `HR Dashboard` sheet reports:
 - Total employees: **99,993**
